@@ -1,0 +1,194 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Control Center Clone </title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(0, 100px);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        h1 {
+            max-width: fit-content;
+           margin: auto;
+           margin-top: 15px;
+           padding: 12px;
+           font-size: 2rem;
+           border: 1px solid blue;
+           border-radius: 18px;
+
+        }
+
+        .container {
+            max-height: 800px;
+            max-width: 90vw;
+            margin: 15px auto;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-items: center;
+            background: rgb(226, 245, 255);
+            animation: scroll 4s linear 7;
+        }
+
+
+        .container div {
+            margin: 7px auto;
+            /* border: .5px solid grey;
+            border-radius: 5px;
+            padding: 2px 5px; */
+
+        }
+
+        .container div img {
+            height: 42px;
+            width: 42px;
+            border: 2px solid rgb(54, 54, 54);
+            border-radius: 50%;
+            padding: 2px;
+
+        }
+
+        .container div:hover {
+            transform: scale(1.5);
+        }
+
+        .container div p {
+            font-size: .7rem;
+            color: brown;
+            margin: 4px auto;
+        }
+
+        @media only screen and (min-width: 800px) {
+
+            .container {
+                min-width: 87vw;
+            }
+            .container div {
+                max-width: 120px;
+                padding: 25px;
+            }
+
+            .container div img {
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+            }
+
+            .container div p {
+                font-size: 1.2rem;
+                color: Black;
+                margin: 7px auto;
+            }
+            .container div:hover {
+                transform: scale(1.5);
+            }
+        }
+
+        @media only screen and (max-width: 300px) {
+            h1 {
+                margin: 0.5rem;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1> My Control Center </h1>
+    <div class="container">
+
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+        <div>
+            <img src="Insta.png">
+            <p> NameOf </p>
+        </div>
+    </div>
+</body>
+
+</html>

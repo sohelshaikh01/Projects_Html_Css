@@ -1,0 +1,85 @@
+/* For checking backgound for brusting */
+/* body {
+    background-color: red;
+} */
+
+
+/* Navigation Section */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* Home Section */
+#home {
+    height: 370px;
+    padding: 7px 28px;
+}
+
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 15px;
+}
+
+/* Services Section */
+#services{
+    flex-direction: column;
+}
+
+#services .box {
+    border: 2px solid black;
+    padding: 25px;
+    margin: 20px 31px;
+    border-radius: 27px;
+    background-color: azure;
+}
+
+/* Clients Section */
+#clients {
+    flex-wrap: wrap
+}
+
+#clients img{
+    width: 65px;
+    padding: 5px;
+    height: auto;
+}
+
+.client-item {
+    padding: 0px 15px;
+}
+
+/* Contact Section */
+
+
+/* Footer */
+
+/* My Edited */
+#contact-box form {
+    width: 75%;
+}
+
+#contact-box label {
+    padding: 7px;
+    font-size: 1.3rem;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 45px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}

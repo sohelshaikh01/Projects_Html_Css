@@ -1,0 +1,6 @@
+We can use diferent tags for different sections.
+such as headre, nav, footer, aside & main tag.
+
+Created Section tag for all sections.
+
+Then adding smooth scrolling into webpage.

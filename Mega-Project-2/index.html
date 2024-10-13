@@ -1,0 +1,54 @@
+<!-- CodeHelp@Yt Full Stack WEb Development Mega Project1 -->
+<!-- It is created with internal CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media Adding to WebPage </title>
+    <style>
+        * body {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="./media-files/Insta2.png" alt="Logo-Image" width="140px" height="140px" loading="lazy">
+    <br>
+
+    <audio src="./media-files/ABgmDoctor.mp3" controls></audio>
+    <!-- !Not working: instead of controls we can use type="audio/mp3" -->
+    <br>
+
+
+    <video src="" width="420px" height="280px" controls></video>
+    <!-- add original video link -->
+    <!-- controls keyword is used here to controls buttons on video -->
+
+    <!-- It can be also written as for audio & video
+    <video controls>
+        <source src="link"
+    </video> -->
+
+    <!-- if we want to import thing into webpage by external sites we uses
+    <iframe>: The Inline Frame Element -->
+    <br>
+
+    <!-- Youtube video is embedded here using iframe tag -->
+    <iframe src="https://youtube.com/embed/tNm_NNSB3_w" width="420px" height="250px" ></iframe>
+    <!-- Replace the watch?v= with embed/ in youtube link above  -->
+    <br>
+
+    <iframe src="../YouTube-Home/index.html" width="1200px" height="800px"></iframe>
+    <!-- This shows the External html file in this page. -->
+    
+    
+
+
+
+</body>
+</html> 

@@ -1,0 +1,137 @@
+@media only screen and (max-width: 768px) {
+    
+    .main> nav {
+        padding: 17px 24px;;
+    }
+    
+    .top-buttons {
+        gap: 12px;
+    }
+
+    .btn-top {
+        padding: 1px 12px 2px 12px;
+        border-radius: 4px;
+        font-size: 12px;
+        height: 25px;
+    }
+
+    .top-buttons button {
+        font-weight: 300;
+    }
+    
+    nav img {
+        height: 25px;
+    }
+    
+    nav button {
+        font-size: 12px;
+    }
+
+    .hero> :first-child {
+        font-size: 2rem;
+        padding-top: 4px;
+    }
+    
+    .hero> :nth-child(2) {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    
+    .hero> :nth-child(3) {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+    
+    .first, .second, .third, .fourth {
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 2rem 2rem;
+    
+    }
+
+    .secText {
+        text-align: center;
+    }
+    /* ------- */
+    
+    .secImg img{
+        position: relative;
+        max-width: 100%;
+    }
+    /* ----------- */
+
+    .sec-heading{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
+    .sec-para {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .btn-start {
+        padding: 4px 10px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .start-buttons input {
+        width: 120px;
+    }
+
+    .login-start {
+        margin-top: 2rem;
+        gap: 16px;
+    }
+    
+    .login-start p {
+        margin-left: 2rem;
+
+    }
+    .faq-container {
+        margin: 2rem auto;
+    }
+
+    .faq-container h2 {
+        font-size: 2rem;
+    }
+
+    .faqbox {
+        font-size: 1rem;
+        min-width: 360px;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .faqbox .question {
+        padding: 1rem;
+    }
+
+    .answer {
+    
+    }
+
+    footer {
+        margin-left: 2rem;
+    }
+
+    .footer,
+    footer p {
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding-bottom: 0;
+    }
+
+    .footer-item {
+        gap: 1rem;
+    }
+
+
+}
