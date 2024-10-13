@@ -12,9 +12,10 @@ This repository contains a series of projects that are intended to help beginner
 
 ![Html Image](https://trainings.internshala.com/blog/wp-content/uploads/2023/07/HTML-projects.jpg)
 
+📁 __Frontend Files/Frontend Websites__
+
 ## Technologies Used
 
 - **HTML5**: For semantic structuring of web content.
 - **CSS3**: For advanced styling, layouts, and animations.
 - **Media Queries**: Ensuring responsive behavior on all devices.
-
